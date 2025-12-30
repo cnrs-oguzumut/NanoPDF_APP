@@ -68,9 +68,6 @@
             <a href="https://ko-fi.com/s/bd1e3fd34d" class="px-8 py-4 gradient-bg text-white font-semibold rounded-xl text-lg hover:opacity-90 transition shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30 transform hover:-translate-y-0.5">
                 Download Free
             </a>
-            <a href="https://github.com/cnrs-oguzumut/nanopdf" class="px-8 py-4 bg-gray-100 text-gray-900 font-semibold rounded-xl text-lg hover:bg-gray-200 transition">
-                View on GitHub
-            </a>
         </div>
         
         <p class="mt-6 text-sm text-gray-500">macOS 11.0+ • Apple Silicon & Intel</p>
@@ -183,14 +180,54 @@
         </div>
     </section>
 
+    <!-- Privacy Policy -->
+    <section id="privacy" class="py-16 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-6">Privacy Policy</h2>
+            <div class="prose text-gray-600 space-y-4">
+                <p><strong>Last updated:</strong> December 2025</p>
+                <p>NanoPDF is designed with privacy as a core principle. We do not collect, store, or transmit any user data.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Data Collection</h3>
+                <p>This app collects <strong>no personal information</strong>. All PDF compression happens entirely on your device. Your files are never uploaded to any server.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Network Access</h3>
+                <p>This app does not require internet access and makes no network connections. It works completely offline.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Third-Party Services</h3>
+                <p>This app does not integrate with any third-party analytics, advertising, or tracking services.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Contact</h3>
+                <p>If you have questions about this privacy policy, contact us at <a href="mailto:oguzumut.salman@cnrs.fr" class="text-blue-600 hover:underline">oguzumut.salman@cnrs.fr</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support -->
+    <section id="support" class="py-16 border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-6">Support</h2>
+            <div class="prose text-gray-600 space-y-4">
+                <p>Need help with NanoPDF? We're here to assist.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Contact</h3>
+                <p>For bug reports, feature requests, or general questions, please email us at:</p>
+                <p><a href="mailto:oguzumut.salman@cnrs.fr" class="text-blue-600 hover:underline font-medium">oguzumut.salman@cnrs.fr</a></p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Common Issues</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><strong>PDF not compressing:</strong> Some PDFs are already optimized and may not compress further.</li>
+                    <li><strong>Ghostscript not detected:</strong> Install via Homebrew with <code class="bg-gray-100 px-1 rounded">brew install ghostscript</code></li>
+                    <li><strong>Quality too low:</strong> Try a higher DPI setting in Pro Mode.</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">System Requirements</h3>
+                <p>macOS 11.0 (Big Sur) or later. Compatible with both Apple Silicon and Intel Macs.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="py-12 border-t border-gray-100">
         <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-gray-500 text-sm">© 2025 Lale Taneri</p>
             <div class="flex items-center gap-6 text-sm">
-                <a href="https://ko-fi.com/oguzumut" class="text-gray-500 hover:text-gray-900 transition">Support on Ko-fi</a>
-                <a href="mailto:oguzumut.salman@cnrs.fr" class="text-gray-500 hover:text-gray-900 transition">Contact</a>
-                <a href="https://github.com/cnrs-oguzumut" class="text-gray-500 hover:text-gray-900 transition">GitHub</a>
+                <a href="#privacy" class="text-gray-500 hover:text-gray-900 transition">Privacy Policy</a>
+                <a href="#support" class="text-gray-500 hover:text-gray-900 transition">Support</a>
+                <a href="https://ko-fi.com/oguzumut" class="text-gray-500 hover:text-gray-900 transition">Ko-fi</a>
             </div>
         </div>
     </footer>
